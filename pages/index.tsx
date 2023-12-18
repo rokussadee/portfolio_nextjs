@@ -42,7 +42,7 @@ export default function IndexPage() {
 					</Link>
 				</div>
 			</section>
-			<section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
+			<section className="flex flex-col items-center justify-center gap-4 py-8 px-3 md:px-6 md:py-10">
 					<h3 className="">Selected projects</h3>
 				<div className="max-w-4xl md:flex gap-4 ">
 				<Card as={Link} href="/projects/0" isFooterBlurred className="w-full h-[300px] col-span-12 sm:col-span-5 my-8">

@@ -124,7 +124,71 @@
       "fields": {
           "title": "Svelte"
       }
+    },
+    {
+      "model": "playground.tag",
+      "fields": {
+          "title": "Rust"
+      }
+    },
+    {
+      "model": "playground.tag",
+      "fields": {
+          "title": "Actix"
+      }
+    },
+    {
+      "model": "playground.tag",
+      "fields": {
+          "title": "PostgreSQL"
+      }
+    },
+    {
+      "model": "playground.tag",
+      "fields": {
+          "title": "Docker"
+      }
+    },
+    {
+      "model": "playground.tag",
+      "fields": {
+          "title": "Diesel ORM"
+      }
+    },
+    {
+      "model": "playground.tag",
+      "fields": {
+          "title": "WebRTC"
+      }
+    },
+    {
+      "model": "playground.tag",
+      "fields": {
+          "title": "Firebase Firestore"
+      }
+    },
+    {
+      "model": "playground.tag",
+      "fields": {
+          "title": "TypeScript"
+      }
+    },
+    {
+      "model": "playground.tag",
+      "fields": {
+          "title": "Livewire Volt"
+      }
+    },
+    {
+      "model": "playground.tag",
+      "fields": {
+          "title": "Python"
+      }
+    },
+    {
+      "model": "playground.tag",
+      "fields": {
+          "title": "BeautifulSoup"
+      }
     }
-
-
 ]

@@ -19,9 +19,8 @@ export default function Page() {
                 <div className='grid grid-cols-4 max-w-7xl'>
                   <div className="inline-block col-span-4 md:col-span-3 justify-center">
 
-                    <div className='flex justify-start'>
-
-                      <Link className='text-color-black hover:text-color-blue ' isExternal href={project.fields.site_link}>
+                    <div className='flex justify-start'>                     
+                      <Link className='text-color-black hover:text-color-blue' isExternal href={project.fields.site_link}>
                     <h1 className="text-4xl md:text-7xl align-center p-3 md:p-6 md:pt-0">
                       {project.fields.title}
                     </h1>
@@ -69,13 +68,19 @@ export default function Page() {
                       ))}
                     </div>
                     <div className='flex gap-2'>
+                    {(project.fields.gh_link !== "" || null) && 
 
-                    <Link isExternal href={project.fields.gh_link}>
-                      <GithubIcon className="text-default-500" />
-                    </Link>      
+                      <Link isExternal href={project.fields.gh_link}>
+                        <GithubIcon className="text-default-500" />
+                      </Link>    
+                    }
+
+                    {(project.fields.site_link !== "" || null) && 
                     <Link isExternal href={project.fields.site_link}>
                         <WebsiteIcon className='text-default-500' ></WebsiteIcon>
                     </Link>
+                      }
+
                     </div>
           </div>
                 </div>
