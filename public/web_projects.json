@@ -10,7 +10,7 @@
       "gh_link": "https://github.com/rokussadee/lac/tree/development",
       "site_link": "https://lesateliersclaus.com",
       "thumbnail": "lesateliersclaus.png",
-      "images": ["lesateliersclaus_1.png", "lesateliersclaus_2.png", "lac_admin.gif"]
+      "images": ["lesateliersclaus_1.png", "lesateliersclaus_2.png", "lac_admin.gif", "lac_archive.gif"]
     }
   },
   {
@@ -25,7 +25,7 @@
       "gh_link": "https://github.com/rokussadee/rokussadee.github.io",
       "site_link": "https://rokussadee.github.io/favorites.html",
       "thumbnail": "DiscJunky.png",
-      "images": ["disckjunky_1.png", "disckjunky_2.png"]
+      "images": ["disckjunky_1.png", "disckjunky_2.png", "discjunky.gif"]
     }
   },
   {
@@ -40,7 +40,7 @@
       "gh_link": "https://github.com/EHB-MCT/angular-course-project-rokussadee/tree/development",
       "site_link": "https://goplay-angular-eb33a.web.app/",
       "thumbnail": "goplay.png",
-      "images": []
+      "images": ["goplay.png"]
     }
   },
   {
@@ -55,7 +55,7 @@
       "gh_link": "https://github.com/EHB-MCT/backend-course-project-rokussadee",
       "site_link": "",
       "thumbnail": "psytool.png",
-      "images": []
+      "images": ["feedbacktool.gif"]
     }
   },
 
