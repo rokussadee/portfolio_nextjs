@@ -1,0 +1,89 @@
+[
+  {
+    "model": "playground.webproject",
+    "fields": {
+      "title": "les ateliers claus",
+      "description": "I had the pleasure of working with the people from les ateliers claus, a legendary venue and artist residency in the heart of Saint-Gilles (Brussels). In cooperation with my good friend Wannes Dewit, I redesigned their website and Content Management System (CMS), tailored to their specific needs and aesthetic vision. Working with a real client in a larger project, without a mentor or a tech-representative of the organisation to communicate with, posed some challenges and demanded a professional, responsible approach. As their organisation has a long-lasting signature branding, with some very clear rules and ‘limitations’, I had to put in the extra effort to implement their ideas without being able to design according to my own aesthetic preferences. The old website and CMS were created and maintained using an early version of Drupal, and contained nothing short of a thousand entries; concerts, residencies and blogposts made in the last 15+ years. All this data had to be reformatted to fit the demands of the new application and its database structure. to do this, I explored the world of python and Jupyter notebooks for the first time, which sparked an interest in working with larger datasets and algorithms.",
+      "year": 2022,
+      "short_description": "Redesigned website for les ateliers claus",
+      "tags": [2, 3, 4, 7, 9, 10, 12, 15],
+      "gh_link": "https://github.com/rokussadee/lac/tree/development",
+      "site_link": "www.lesateliersclaus.com",
+      "thumbnail": "lesateliersclaus.png",
+      "images": ["lesateliersclaus_1.png", "lesateliersclaus_2.png", "lac_admin.gif"]
+    }
+  },
+  {
+    "model": "playground.webproject",
+    "fields": {
+      "title": "DiscJunky",
+      "description": "In one of the courses during my second bachelor year I got tasked with creating a Full Stack website / platform in Vanilla JavaScript, using a public API and NoSQL. As an avid music listener and creator, I wanted to create a service that allows users to automatically find physical copies of their favorite albums, based on their most streamed artists. Users log in with their Spotify account, which allows the app to analyze their most listened items. To list the physical copies, I used Web Scraping on Discogs, as there are no accessible, free API’s available that return this kind of data.",
+      "year": 2023,
+      "short_description": "Full Stack platform for finding physical music copies",
+      "tags": [8, 11, 13, 14, 16, 17, 18],
+
+      "gh_link": "https://github.com/rokussadee/rokussadee.github.io",
+      "site_link": "https://rokussadee.github.io/favorites.html",
+      "thumbnail": "DiscJunky.png",
+      "images": ["disckjunky_1.png", "disckjunky_2.png"]
+    }
+  },
+  {
+    "model": "playground.webproject",
+    "fields": {
+      "title": "GoPlay",
+      "description": "For another subject in my second bachelor, I was commissioned to redesign and -develop the Belgian ‘GoPlay’ streaming service (for academic purposes). One part had to be done in the Angular JavaScript framework, and another using the React library. I focused on Angular more than React, and learnt to use directives, services, models, components and pipes. For React, I learnt to work with hooks, services, functional components and animations using UI Ball.",
+      "year": 2022,
+      "short_description": "Redesigned GoPlay streaming service",
+      "tags": [1, 5, 9, 11, 19],
+
+      "gh_link": "https://github.com/EHB-MCT/angular-course-project-rokussadee/tree/development",
+      "site_link": "https://goplay-angular-eb33a.web.app/",
+      "thumbnail": "goplay.png",
+      "images": []
+    }
+  },
+  {
+    "model": "playground.webproject",
+    "fields": {
+      "title": "Psychologist Management platform",
+      "description": "Another course in my second bachelor focused more on the backend side of web development. I created a survey / sessions management tool for psychologists using Laravel, complete with factory patterns, seeders and authentication using roles inside of an MVC structure.",
+      "year": 2022,
+      "short_description": "Psychologist sessions management tool",
+      "tags": [2, 3, 4, 6, 13, 14, 16],
+
+      "gh_link": "https://github.com/EHB-MCT/backend-course-project-rokussadee",
+      "site_link": "",
+      "thumbnail": "psytool.png",
+      "images": []
+    }
+  },
+  {
+    "model": "playground.webproject",
+    "fields": {
+      "title": "Stemmendoos",
+      "description": "Me and three classmates created a simple webapp for the journalists faculty at RITCS Brussels. The idea was to divide the students according to their 'voice color'. The students' voices were put in the spotlight by adding their recordings to their profile pages. The application was built in Vanilla JS, CSS, and HTML.",
+      "year": 2021,
+      "short_description": "Webapp for student voice division",
+      "tags": [8, 13],
+      "gh_link": "",
+      "site_link": "",
+      "thumbnail": "lesateliersclaus.png",
+      "images": []
+    }
+  },
+  {
+    "model": "playground.webproject",
+    "fields": {
+      "title": "WebRTC + WebSocket Livechat application",
+      "description": "Upon arrival at the website, the user is immediately placed in a virtual room where someone is sitting or will have to wait a while for another user. These are thus automatically connected. The user is asked if the application will access their camera and microphone. In case it does, the user's webcam is turned on and they can now communicate with another user. The two users can also communicate with each other via messages loaded in real time. In preparation, I read up on a number of concepts such as Web Real-Time Communication and its associated concepts such as peer connections, media streams, STUN servers and Interactive Connectivity Establishment. Then I also read up on Svelte and SvelteKit, as I had never used this front end framework before, and this seemed like a perfect opportunity to get started with it. For storing all room and real-time connection related data, I decided to work with Firebase Firestore since this technology gives the ability to store or retrieve data in real-time. I wanted to be able to automatically connect users to each other, without them having to access some kind of ID or manual link. This is why I worked with WebSockets; the application checks if the last connected user is the first of a pair (i.e., an odd number) and thus creates a new 'room' with the Socket.IO library. The ID of this created room is stored, and the next connected user (even number) then automatically connects to the last created room whose ID is stored in the server-side Socket. This made me think it would be interesting to add a live chat functionality as well, as this is often done with WebSockets.",
+      "year": 2021,
+      "short_description": "",
+      "tags": [20, 21],
+      "gh_link": "",
+      "site_link": "",
+      "thumbnail": "WebRTC.png",
+      "images": ["WebRTC.png"]
+    }
+  }
+]

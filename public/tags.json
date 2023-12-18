@@ -1,0 +1,130 @@
+[
+    {
+        "model": "playground.tag",
+        "fields": {
+            "title": "Angular"
+        }
+    },
+    {
+        "model": "playground.tag",
+        "fields": {
+            "title": "Laravel"
+        }
+    },
+    {
+        "model": "playground.tag",
+        "fields": {
+            "title": "Laravel Eloquent"
+        }
+    },
+    {
+        "model": "playground.tag",
+        "fields": {
+            "title": "Laravel Fortify"
+        }
+    },
+    {
+        "model": "playground.tag",
+        "fields": {
+            "title": "React"
+        }
+    },
+    {
+        "model": "playground.tag",
+        "fields": {
+            "title": "Tailwind CSS"
+        }
+    },
+    {
+        "model": "playground.tag",
+        "fields": {
+            "title": "Livewire"
+        }
+    },
+    {
+        "model": "playground.tag",
+        "fields": {
+            "title": "CSS"
+        }
+    },
+    {
+        "model": "playground.tag",
+        "fields": {
+            "title": "SCSS"
+        }
+    },
+    {
+        "model": "playground.tag",
+        "fields": {
+            "title": "Alpine.js"
+        }
+    },
+    {
+        "model": "playground.tag",
+        "fields": {
+            "title": "Node.js"
+        }
+    },
+    {
+        "model": "playground.tag",
+        "fields": {
+            "title": "PHP"
+        }
+    },
+    {
+        "model": "playground.tag",
+        "fields": {
+            "title": "Vanilla JavaScript"
+        }
+    },
+    {
+        "model": "playground.tag",
+        "fields": {
+            "title": "MongoDB"
+        }
+    },
+    {
+        "model": "playground.tag",
+        "fields": {
+            "title": "SQL"
+        }
+    },
+    {
+        "model": "playground.tag",
+        "fields": {
+            "title": "NoSQL"
+        }
+    },
+    {
+        "model": "playground.tag",
+        "fields": {
+            "title": "Web Scraping"
+        }
+    },
+    {
+        "model": "playground.tag",
+        "fields": {
+            "title": "Express.js"
+        }
+    },
+    {
+        "model": "playground.tag",
+        "fields": {
+            "title": "Axios"
+        }
+    },
+    {
+      "model": "playground.tag",
+      "fields": {
+          "title": "WebSockets"
+      }
+    },
+    {
+      "model": "playground.tag",
+      "fields": {
+          "title": "Svelte"
+      }
+    }
+
+
+]
