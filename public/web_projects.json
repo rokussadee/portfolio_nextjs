@@ -40,7 +40,7 @@
       "gh_link": "https://github.com/EHB-MCT/angular-course-project-rokussadee/tree/development",
       "site_link": "https://goplay-angular-eb33a.web.app/",
       "thumbnail": "goplay.png",
-      "images": ["goplay.png", "goplay.gif"]
+      "images": ["goplay.gif"]
     }
   },
   {
@@ -65,7 +65,7 @@
       "title": "WebRTC + WebSocket Livechat application",
       "description": "Upon arrival at the website, the user is immediately placed in a virtual room where someone is sitting or will have to wait a while for another user. These are thus automatically connected. The user is asked if the application will access their camera and microphone. In case it does, the user's webcam is turned on and they can now communicate with another user. The two users can also communicate with each other via messages loaded in real time. In preparation, I read up on a number of concepts such as Web Real-Time Communication and its associated concepts such as peer connections, media streams, STUN servers and Interactive Connectivity Establishment. Then I also read up on Svelte and SvelteKit, as I had never used this front end framework before, and this seemed like a perfect opportunity to get started with it. For storing all room and real-time connection related data, I decided to work with Firebase Firestore since this technology gives the ability to store or retrieve data in real-time. I wanted to be able to automatically connect users to each other, without them having to access some kind of ID or manual link. This is why I worked with WebSockets; the application checks if the last connected user is the first of a pair (i.e., an odd number) and thus creates a new 'room' with the Socket.IO library. The ID of this created room is stored, and the next connected user (even number) then automatically connects to the last created room whose ID is stored in the server-side Socket. This made me think it would be interesting to add a live chat functionality as well, as this is often done with WebSockets.",
       "year": 2023,
-      "short_description": "",
+      "short_description": "Real-time communication app",
       "tags": [20, 21, 27, 28, 29, 6],
       "gh_link": "https://github.com/rokussadee/WebRTC/tree/development",
       "site_link": "",
@@ -76,10 +76,10 @@
   {
     "model": "playground.webproject",
     "fields": {
-      "title": "Scalable Rust application",
+      "title": "Fictional Flora API",
       "description": "For this assignment, I had a rather ambitious approach, with no functioning visual result. Given my interests in expanding my technical knowledge into areas in computer science not so much related to web and app development, I wanted to take the opportunity in this assignment to get a first introduction to a slightly more 'low-level' programming language, which is statically typed and uses ahead-of-time compilation. So in this case, I was trying to find a way to explore and use these concepts, but still apply them within the field of web development. Rust offers these capabilities, one is becoming increasingly popular over the last few years, even within web development. As a first step, I focused mostly on the terms and concepts associated with a language like this. I also spent a lot of time understanding and learning functional programming, and the techniques and concepts within Rust that I would need to build something of value. So the main result of this approach is rather theoretical/knowledgeable in the form of notes, found at the end of this file. The application itself had no visual result at the evaluation time. Largely, this is because I was not able to really start building it until the second week, because the theory of Rust and functional programming took more time than expected. Also, I have not yet been able to resolve most of the errors given by the compiler, which forced me to stop the project early. However, I did capture and program a strong foundation of the application structure; a PostgreSQL connection, a group of very extensive 'models' / data types and a setup for the API.",
       "year": 2023,
-      "short_description": "",
+      "short_description": "Rust app for fictional flora data",
       "tags": [22, 23, 24, 25, 26],
       "gh_link": "https://github.com/rokussadee/WebRTC/tree/development",
       "site_link": "",
@@ -93,7 +93,7 @@
       "title": "Torfs WebScraping",
       "description": "First, I researched conventions and best-practices within web scraping. Most web scrape applications use python, for example in combination with Jupyter notebook and Beautifulsoup. Since I will have to handle Python a lot in my internship and for final work, this was the perfect opportunity for me to gain some experience in this as well and become more comfortable with Python's syntax and working environment. I did the non-web scraping stuff in PHP Laravel, which I already had experience with. Within this, however, I also experimented by using a new library for Laravel; Livewire Volt. Since the python web scraper functionality is completely distinguishable from the rest, it was also a good opportunity to apply Docker; among other things, I learned more about partitioning an application into different containers. I also tried to build the python web scraper functionality as a microservice, so that the web scraper could also function as an API within the docker network. In the end, I still had to integrate the python functionality into the Laravel application itself so that it could more easily use the output from the web scraping endpoints. One of the technical problems was scrapping lazyloaded data. To solve this problem, I was introduced to concepts such as XHR and some browser tools that make analyzing the bn incoming data easier.",
       "year": 2023,
-      "short_description": "",
+      "short_description": "Dockerized BeautifulSoup + Laravel app",
       "tags": [2, 15, 30, 31, 32],
       "gh_link": "https://github.com/rokussadee/web_scraping/tree/development",
       "site_link": "",
